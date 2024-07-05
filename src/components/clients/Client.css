@@ -1,0 +1,95 @@
+.main_3 {
+    color: var(--text-color);
+    padding: 20px;
+    margin: 0 30px;
+}
+
+.inner_main3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.heading_main3 h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Responsive font size */
+}
+
+.cards_main3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around; /* Center cards horizontally */
+    padding-top: 20px;
+}
+
+.card_main3 {
+    width: calc(30% - 30px); /* Responsive width calculation */
+    max-width: 300px; /* Maximum width for larger screens */
+    border: 2px solid var(--about-color);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: pop-in 0.6s ease forwards;
+}
+
+@keyframes pop-in {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.card_main3:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 1px 20px var(--btn-color);
+}
+
+.card_main3 i {
+    color: var(--btn-color);
+    font-size: 40px;
+}
+
+.btn_card button {
+    width: 150px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-color);
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid var(--btn-color);
+    transition: color 0.5s ease, background 0.5s ease, box-shadow 0.5s ease;
+    user-select: none;
+}
+
+button:hover {
+    color: black;
+    background: var(--btn-color);
+    box-shadow: 0 0 20px var(--btn-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .card_main3 {
+        width: calc(50% - 30px); /* Two cards per row on medium screens */
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card_main3 {
+        width: calc(100% - 30px); /* Single column layout on small screens */
+    }
+}
+
