@@ -57,9 +57,10 @@ function Navbar() {
         </div>
 
         <div className="btnnav">
-          <button className="btn">
-            <img src={Call} alt="Image" className="call_icon" />  <Link to="/contact">Contact Me</Link>
-          </button>
+        <button className="btn">
+  <img src={Call} alt="Image" className="call_icon" />
+  <Link to="/contact" className="btn_link">Contact Me</Link>
+</button>
         </div>
 
         <div className="icons" id="icons" onClick={handle}>

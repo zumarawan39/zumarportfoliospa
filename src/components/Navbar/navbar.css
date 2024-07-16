@@ -56,74 +56,63 @@ li {
   margin: 5px 15px;
 }
 
-.btnnav {
-  border: 2px solid white;
-}
-
-.btnnav:hover {
-  border: 2px solid white;
-  transition: all 0.3s ease-in;
-  /* background-color: #9CFF1E; */
-}
-
 .btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   background: transparent;
-  border: none;
+  border: 2px solid white;
   padding: 1em 1.5em;
   color: #ffedd3;
   text-transform: uppercase;
   position: relative;
-  transition: 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
   cursor: pointer;
   outline: none;
 }
 
-.btn::before {
+.btn::before, .btn::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  width: 100%;
   height: 2px;
-  width: 0;
   background-color: #9CFF1E;
-  transition: 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+.btn::before {
+  top: 0;
+  width: 0;
+}
+
+.btn::after {
+  bottom: 0;
+  width: 0;
 }
 
 .btn:hover {
   color: #1e1e2b;
-  transition-delay: 0.5s;
 }
 
-.btn:hover::before {
+.btn:hover::before, .btn:hover::after {
   width: 100%;
-}
-
-.btn::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 0;
-  bottom: 0;
-  height: 0;
-  width: 100%;
-  /* background-color: #9CFF1E; */
-  transition: 0.4s ease;
-  z-index: -1;
-}
-
-.btn:hover::after {
-  height: 100%;
-  transition-delay: 0.4s;
-  /* color: aliceblue; */
 }
 
 .call_icon {
   width: 20px;
   height: 20px;
+}
+
+.btn a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.btn a:hover {
+  color: inherit;
 }
 
 .list a:hover {

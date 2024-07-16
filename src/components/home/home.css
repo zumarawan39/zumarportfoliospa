@@ -188,5 +188,9 @@ img{
     width: 300px;
     animation: smoothMoveUpDown 10s ease-in-out infinite; /* Apply the smooth movement animation */
   }
- 
+ img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+ }
 }
