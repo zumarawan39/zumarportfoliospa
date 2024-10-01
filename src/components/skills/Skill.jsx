@@ -29,7 +29,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill">
-              <h3>Sass<span>60%</span></h3>
+              <h3>Tailwind<span>60%</span></h3>
               <div className="progress-bar">
                 <div className="progress" style={{ width: '60%' }}></div>
               </div>
@@ -43,13 +43,13 @@ const Skill = () => {
           </div>
           <div className="skills-column">
             <div className="skill">
-              <h3>React <span>70%</span></h3>
+              <h3>React <span>60%</span></h3>
               <div className="progress-bar">
                 <div className="progress" style={{ width: '70%' }}></div>
               </div>
             </div>
             <div className="skill">
-              <h3>Angular <span>70%</span></h3>
+              <h3>Angular <span>80%</span></h3>
               <div className="progress-bar">
                 <div className="progress" style={{ width: '70%' }}></div>
               </div>

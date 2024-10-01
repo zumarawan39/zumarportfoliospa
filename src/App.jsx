@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import * as React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Skill from './components/skills/Skill';
+import Spa from './components/spa/Spa';
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
     {
       path: '/skill',
       element: <Skill/>
+    },
+    {
+      path: '/spa',
+      element:<Spa/>
     },
   ]);
 

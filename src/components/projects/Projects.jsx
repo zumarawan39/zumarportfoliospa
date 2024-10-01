@@ -53,6 +53,7 @@ function Projects() {
             <div className="heading_main3">
               <h1>Latest <span className="color">Projects</span></h1>
             </div>
+            
             <div className="projects">
               {projects.map((project, index) => (
                 <div className="project" key={index}>

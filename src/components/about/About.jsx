@@ -14,7 +14,7 @@ function About() {
                                 <h1>About <span className="color">Me</span></h1>
                                 <h3>Software Engineer</h3>
                                 <p>
-                                    My name is Muhammad Zumar Awan. Currently, I'm doing bachelors in Computer Science at Virtual University of Pakistan. I have one year of experience as a web development trainee at SeeBiz Private Limited, where I learned various skills mentioned in my resume. Additionally, my interest in web development has spanned over two years. I completed a six-month web development course from Lite under the army, and under Akhuwat a four-month course in web and app development from Corvit. With a deep passion for web development, I've decided to delve deeper into this field. So I'm committed to continuously enhancing my skills in web development.
+                                My name is Muhammad Zumar Awan, a Bachelor’s student in Computer Science at Virtual University of Pakistan. I have one year of experience as a Web Development Trainee at SeeBiz Private Limited, specializing in MEAN Stack. I have also completed internships and bootcamps, where I worked on live projects using Angular and the MERN stack. Additionally, I have completed a six-month Front-End Development course under the Army and a four-month Full Stack program at Corvit Systems under Akhuwat. With a strong passion for web development, I am committed to continuously enhancing my skills and delivering quality projects.
                                 </p>
                                 <button>Read More</button>
                             </div>

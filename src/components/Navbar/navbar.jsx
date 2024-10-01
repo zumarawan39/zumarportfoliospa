@@ -50,6 +50,9 @@ function Navbar() {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
+            <li>
+              <Link to="/spa">Full Stack</Link>
+            </li>
             <li className="li_last">
               <Link to="/contact">Contact Me</Link>
             </li>

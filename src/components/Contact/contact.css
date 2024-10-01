@@ -67,6 +67,7 @@ button.btn3 {
 
 button.btn3:hover {
     /* background-color: var(--text-color); */
+    transition: all .3s ease-in-out;
     color: black;
 }
 

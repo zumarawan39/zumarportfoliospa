@@ -45,7 +45,8 @@ function Home() {
           </div>
           <div className="about">
             <p>
-              I'm a skilled Web Developer passionate about creating visually appealing, user-friendly websites. Freelancing currently, I specialize in building sites that excel in both design and user experience. Have a project? Let's chat!
+              I'm a Software Engineer skilled in front-end and back-end development,I specialized in MEAN |MERN Stack Development.I excel at seamlessly integrating emerging technologies into projects, distinguishing myself in
+               web development.
             </p>
           </div>
           <div className="home_btn">
