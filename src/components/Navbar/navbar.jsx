@@ -42,12 +42,6 @@ function Navbar() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/skill">Skills</Link>
-            </li>
-            <li>
-              <Link to="/clients">Services</Link>
-            </li>
-            <li>
               <Link to="/projects">Projects</Link>
             </li>
             <li>

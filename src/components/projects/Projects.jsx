@@ -20,8 +20,6 @@ import Myimg15 from "../../../public/assests/images/final.png";
 import Myimg16 from "../../../public/assests/images/pro1.png";
 import Myimg17 from "../../../public/assests/images/react.png";
 
-import { Form } from 'react-router-dom';
-
 function Projects() {
   const projects = [
     { img: Myimg, title: "Project 1", link: "https://zumarawan39.github.io/main_portfolio/" },
@@ -49,11 +47,7 @@ function Projects() {
       <Navbar />
       <section>
         <div className="main_4">
-          <div className="inner_main4 ">
-            <div className="heading_main3">
-              <h1>Latest <span className="color">Projects</span></h1>
-            </div>
-            
+          <div className="inner_main4 ">            
             <div className="projects">
               {projects.map((project, index) => (
                 <div className="project" key={index}>
