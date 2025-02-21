@@ -2,11 +2,12 @@ import './App.css';
 import Contact from './components/Contact/Contact';
 import Hero from './components/Hero/Hero';
 import About from './components/about/About';
-import Projects from './components/projects/Projects';
 import * as React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Spa from './components/spa/Spa';
+// Lazy load the components
+const Spa = React.lazy(() => import('./components/spa/Spa'));
+const Projects = React.lazy(() => import('./components/projects/Projects'));
 
 function App() {
   const router = createBrowserRouter([
@@ -20,7 +21,11 @@ function App() {
     },
     {
       path: '/projects',
-      element: <Projects />,
+      element: (
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Projects />
+        </React.Suspense>
+      ),
     },
     {
       path: '/contact',
@@ -28,7 +33,11 @@ function App() {
     },
     {
       path: '/spa',
-      element:<Spa/>
+      element: (
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Spa />
+        </React.Suspense>
+      ),
     },
   ]);
 

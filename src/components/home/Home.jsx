@@ -38,7 +38,7 @@ function Home() {
             <h3>Hello,</h3>
           </div>
           <div className="bold fs">
-            <h1>I'm</h1>
+            <h1 >I'm</h1>
           </div>
           <div className="bold_1 green fs">
             <h1 className="rotating-service">{services[currentService]}</h1>
