@@ -10,6 +10,7 @@ const Spa = () => {
       title: 'Portal Management System', 
       description: 'A comprehensive portal management system with user authentication and dashboard',
       src: '/videos/pr1.mp4',
+      poster: '/assests/images/pms.png',
       tech: 'React, Node.js, MongoDB'
     },
     { 
@@ -17,6 +18,7 @@ const Spa = () => {
       title: 'HR Management System', 
       description: 'Human resources management platform with employee tracking and reporting',
       src: '/videos/hr.my.mp4',
+      poster: '/assests/images/hr.png',
       tech: 'Angular, Express.js, MySQL'
     },
     { 
@@ -24,6 +26,7 @@ const Spa = () => {
       title: 'E-Commerce Admin Panel', 
       description: 'Advanced admin panel for e-commerce platform with analytics and inventory management',
       src: '/videos/ecadm.mp4',
+      poster: '/assests/images/ecommerce.png',
       tech: 'React, Node.js, PostgreSQL'
     },
     { 
@@ -31,6 +34,7 @@ const Spa = () => {
       title: 'E-Commerce Website', 
       description: 'Full-featured e-commerce website with payment integration and user management',
       src: '/videos/ec.mp4',
+      poster: '/assests/images/e-commerce.png',
       tech: 'MERN Stack, Stripe API'
     },
   ];
@@ -65,7 +69,7 @@ const Spa = () => {
                   <video
                     src={video.src}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    poster="/assests/images/project_1.png"
+                    poster={video.poster}
                     preload="metadata"
                   />
                   
