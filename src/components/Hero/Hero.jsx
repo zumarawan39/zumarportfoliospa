@@ -3,7 +3,7 @@ import Home from '../home/Home';
 
 function Hero() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-dark via-secondary to-dark overflow-hidden">
+    <div className="relative  min-h-screen bg-gradient-to-br from-dark via-secondary to-dark overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-full">

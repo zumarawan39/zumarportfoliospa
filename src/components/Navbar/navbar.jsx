@@ -39,7 +39,7 @@ function Navbar() {
           ? 'bg-dark/95 backdrop-blur-md border-b border-white/10 shadow-lg' 
           : 'bg-transparent'
       }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="md:container mx-auto px-4 ">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <div className="flex items-center space-x-3">

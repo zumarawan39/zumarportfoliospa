@@ -21,20 +21,20 @@ function Home() {
     const pdfUrl = "https://docs.google.com/document/d/1NYelQ-RggxX_Hm1TOOSGGRDe3uMVWckxi5lUwA_qFCY/";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Adrees-Resume.pdf";
+    link.download = "zumar.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center pt-20 lg:pt-0">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen  flex items-center justify-center pt-20 lg:pt-0">
+      <div className="md:container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-8 animate-slide-up">
+          <div className="flex flex-col gap-4 space-y-8 animate-slide-up">
             {/* Greeting */}
-            <div className="space-y-2">
+            <div className="space-y-6">
               <h3 className="text-2xl lg:text-3xl font-light text-primary animate-fade-in">
                 Hello,
               </h3>

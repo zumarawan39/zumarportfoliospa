@@ -46,7 +46,7 @@ function Projects() {
       <Navbar />
       
       <section className="pt-20 lg:pt-32 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="md:container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-16 animate-slide-up">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">
